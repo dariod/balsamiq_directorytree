@@ -5,7 +5,7 @@ Balsamiq Mockups allows you to display trees but it has its own language for the
 I found boring to manually type in the needed, thus I wrote a python tool to produce a directory listing according to what's expected from Balsamiq Mockup.
 
 This is the output of a run:
-
+```
 [dariod@prometeo dir01]$ python ../../balsamiq_tree.py
 F dir01
  F dir02
@@ -22,3 +22,4 @@ F dir01
     - VALVE_0000.dat
    F dir07
     - design.dat
+```
